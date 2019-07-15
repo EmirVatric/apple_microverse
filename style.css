@@ -24,36 +24,18 @@ body {
 }
 
 .img1 {
-    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
     width: 100%;
-    height: 200px;
+    height: 180px;
+
 }
 
-.img2 {
-    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
+.img1>img {
+    object-fit: cover;
+    height: 100%;
     width: 100%;
-    height: 200px;
 }
 
-.img3 {
-    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    width: 100%;
-    height: 200px;
-}
 
-.img4 {
-    background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    width: 100%;
-    height: 200px;
-}
 
 .filler {
     padding-top: 100px;
@@ -66,8 +48,7 @@ body {
     margin: 0 auto;
     height: 40px;
     border-radius: 5px;
-    align-items: center;
-    justify-items: center;
+    align-content: center;
     grid-template-columns: 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr 0.9fr 1.5fr;
 }
 
@@ -96,14 +77,11 @@ body {
 }
 
 .navbar input {
-
+    margin: 0 auto;
     background-image: url('images/search_icon.png');
     background-repeat: no-repeat;
     background-position: left 5px center;
     background-size: 13px;
-
-
-
     background-color: #7f7f7f;
     width: 100px;
     height: 18px;
@@ -113,15 +91,14 @@ body {
     border-right: 0px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: inset 0px 6px 1px -4px rgba(0, 0, 0, 0.6);
+    transition-duration: 1s;
 }
 
 .navbar input:focus {
     background-image: url('images/search_icon.png');
     background-repeat: no-repeat;
-    background-position: left 5px center;
+    background-position: 5px center;
     background-size: 13px;
-
-
     width: 200px;
     padding-left: 25px;
     margin-left: 10px;
@@ -185,7 +162,7 @@ footer {
 
 .first-footer>small>a:hover {
     text-decoration: underline;
-    color: blue;
+
 }
 
 .second-footer {
@@ -205,7 +182,7 @@ footer {
 
 .second-footer>a:hover {
     text-decoration: underline;
-    color: blue;
+
 }
 
 .third-footer {
@@ -222,5 +199,17 @@ footer {
 
 .third-footer>small>a:hover {
     text-decoration: underline;
-    color: blue;
+
+}
+
+#flag {
+    border-right: none;
+}
+
+.terms {
+    border-right: 1px solid gray;
+}
+
+.privacy {
+    padding-left: 3px;
 }
