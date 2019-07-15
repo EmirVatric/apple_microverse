@@ -1,5 +1,5 @@
 linters:
   csslint:
-    ignore: "box-model,ids,"order-alphabetical""
+    ignore: "box-model,ids,order-alphabetical"
 fixers:
   enable: true
