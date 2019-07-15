@@ -1,6 +1,6 @@
 linters:
   stylelint:
-    "ignore": ["order-alphabetical"],
+    "ignore": ["order-alphabetical"]
   csslint:
     "ignore": ["order-alphabetical"]
 fixers:
