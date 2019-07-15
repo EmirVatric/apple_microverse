@@ -1,5 +1,5 @@
 linters:
+  stylelint:
   csslint:
-    ignore: "box-model,ids"
 fixers:
   enable: true
